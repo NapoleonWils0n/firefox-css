@@ -10,3 +10,4 @@
     img { opacity: 0.05 !important; }
 }
 
+![image](https://raw.githubusercontent.com/NapoleonWils0n/firefox-css/master/google-solarized.png)
