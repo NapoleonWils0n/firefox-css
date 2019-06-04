@@ -1,4 +1,4 @@
-# firefox block css
+# firefox userContent.css
 
 * Open Firefox and press Alt to show the top menu, then click on Help → Troubleshooting Information
 * Click the Show Folder button beside the Profile Folder entry
