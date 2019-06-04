@@ -10,6 +10,15 @@
     img { opacity: 0.05 !important; }
 }
 
+## Firefox blank page solarized
+
+The userContent.css will also apply the solarized dark theme to Firefox's newtab, blank page and home page
+
+Open Firefox's preference and change the Homepage and new windows to use Firefox Home (default),  
+and newtabs to Blank page.
+
+We have to set the Homepage to Firefox Home and not blank page because it doesnt seem to pick up the colour scheme on the homepage otherwise
+
 ## Google search solarized
 
 Below is an example of Firefox userContent.css styling google.com using the solarized dark colour scheme,  
