@@ -1,4 +1,4 @@
-# firefox userContent.css
+# Firefox userContent.css
 
 * Open Firefox and press Alt to show the top menu, then click on Help → Troubleshooting Information
 * Click the Show Folder button beside the Profile Folder entry
@@ -9,5 +9,10 @@
 @-moz-document domain(example.com) {
     img { opacity: 0.05 !important; }
 }
+
+## Google search solarized
+
+Below is an example of Firefox userContent.css styling google.com using the solarized dark colour scheme,  
+included in the userContent.css file
 
 ![image](https://raw.githubusercontent.com/NapoleonWils0n/firefox-css/master/google-solarized.png)
