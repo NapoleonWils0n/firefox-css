@@ -101,7 +101,8 @@ background:#002b36 !important;
 }
     /* title */
 h1.title, span#video-title, div#upnext,
-span#title, .ytd-rich-grid-video-renderer {
+span#title, .ytd-rich-grid-video-renderer,
+a.yt-simple-endpoint {
 color:#839496 !important;
 }
 }
