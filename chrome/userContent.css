@@ -91,3 +91,22 @@ h3, .med {
  color:#93a1a1 !important;
 }
 }
+
+/* youtube */
+@-moz-document domain(youtube.com) {
+/* header */ 
+#masthead {
+   background:#002b36 !important;
+}
+/* background */
+.ytd-app {
+   background:#002b36 !important;
+}
+/* playlist box */
+.ytd-playlist-panel-renderer {
+   background:#002b36 !important;
+}
+.ytd-browse {
+   background:#002b36 !important;
+}
+}
