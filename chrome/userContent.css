@@ -102,7 +102,12 @@ div#player-container-inner {
 border: solid 1px #005577 !important;
 }
 /* thumbnails */
-a#thumbnail {
+a#thumbnail,
+div#container.ytd-playlist-panel-renderer {
 border: solid 1px #586e75 !important;
+}
+/* sign in button */
+.ytd-button-renderer {
+border: none !important;
 }
 }
