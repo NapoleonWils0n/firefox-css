@@ -111,3 +111,11 @@ border: solid 1px #586e75 !important;
 border: none !important;
 }
 }
+
+/* lite.duckduckgo.com */
+@-moz-document domain(lite.duckduckgo.com) {
+body {background:#1c1c1c !important;}
+a {color: #eeeeee !important;}
+span.link-text {color: #cccccc !important;}
+td {color: #cccccc !important;}
+}
