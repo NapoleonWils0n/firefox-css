@@ -42,15 +42,19 @@ border: none !important;
 /* html.duckduckgo.com */
 @-moz-document domain(html.duckduckgo.com) {
 body {background:#1c1c1c !important;}
+/* dropdown menu background */
 .frm__select {background: #eeeeee !important;}
 a.result__a {color: #cccccc !important;}
 .result__extras__url a {color: #eeeeee !important;}
 a.result__snippet {color:#cccccc !important;}
 .result__snippet b {color:#cccccc !important;}
-.result__body:hover {background:#282828 !important; border-color:transparent !important;}
+.result__body:hover {background:#282828 !important;}
+.result:hover, .related-searches:hover {border: 1px solid #282828 !important; background:#282828 !important;}
+/* zero click */
 .zci-wrapper {background-color: #282828 !important;}
 h1.zci__heading a {color: #eeeeee !important;}
 #zero_click_abstract {color: #cccccc !important;}
+#zero_click_abstract a {color: #cccccc !important;}
 /* a {color: #eeeeee !important;} */
 }
 
