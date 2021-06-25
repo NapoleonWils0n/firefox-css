@@ -1,4 +1,4 @@
-#+STARTUP: showall
+#+STARTUP: content
 * Firefox userContent.css
 
 + Open Firefox and press Alt to show the top menu, then click on Help → Troubleshooting Information
@@ -7,10 +7,67 @@
 + In the chrome folder create a css file with the name userContent.css
 + Copy the following code to userContent.css, replacing "example.com" with the website you want to modify and your own custom CSS, and restart Firefox:
 
+example code
+
 #+begin_src css
 @-moz-document domain(example.com) {
     img { opacity: 0.05 !important; }
 }
+#+end_src
+
+** user.js
+
+copy the user.js file to your firefox profile directory,
+the user.js will set firefox to use use style sheets, so you dont have to enable the option using firefoxs about config page
+
+#+begin_src javascript
+// ** Theme Related Options ****************************************************
+// userchrome.css usercontent.css activate
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+
+// Fill SVG Color
+user_pref("svg.context-properties.content.enabled", true);
+
+// CSS Blur Filter - 88 Above
+user_pref("layout.css.backdrop-filter.enabled", true);
+
+// Restore Compact Mode - 89 Above
+user_pref("browser.compactmode.show", true);
+
+#+end_src
+
+** userChrome.css
+
+copy the userChrome.css file to the chrome directory in your firefox profile directory
+
+the code below set tabs to be attached to the url bar instead of floating
+
+#+begin_src sh
+/*** Proton Tabs Tweaks ***/
+
+/* Adjust tab corner shape, optionally remove space below tabs */
+
+#tabbrowser-tabs {
+    --user-tab-rounding: 6px;
+}
+
+@media (-moz-proton) {
+    .tab-background {
+        border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important;
+        margin-block: 1px 0 !important;
+    }
+    #scrollbutton-up, #scrollbutton-down { /* 6/10/2021 */
+        border-top-width: 1px !important;
+        border-bottom-width: 0 !important;
+    }
+    /* Container color bar visibility */
+    .tabbrowser-tab[usercontextid] > .tab-stack > .tab-background > .tab-context-line {
+        margin: 0px max(calc(var(--user-tab-rounding) - 3px), 0px) !important;
+    }
+}
+
+/* Tweak Options as of 6/12/2021; Generated Fri Jun 25 2021 19:21:39 GMT+0100 (British Summer Time) */
+
 #+end_src
 
 ** Firefox blank page 
