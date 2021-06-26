@@ -1,3 +1,13 @@
+/* userChrome.css */
+
+/* hide close, minimize window buttons */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+.titlebar-min {display:none!important;}
+.titlebar-max {display:none!important;}
+.titlebar-restore {display:none!important;}
+.titlebar-close {display:none!important;}
+
 /*** Proton Tabs Tweaks ***/
 
 /* Adjust tab corner shape, optionally remove space below tabs */
@@ -20,5 +30,3 @@
         margin: 0px max(calc(var(--user-tab-rounding) - 3px), 0px) !important;
     }
 }
-
-/* Tweak Options as of 6/12/2021; Generated Fri Jun 25 2021 19:21:39 GMT+0100 (British Summer Time) */
