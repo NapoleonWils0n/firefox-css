@@ -9,7 +9,7 @@
 .titlebar-close {display:none!important;}
 
 /* hide back and forward buttons */
-#back-button, #forward-button {display:none!important;}
+#back-button, #forward-button {display:none !important;}
 
 /*** Proton Tabs Tweaks ***/
 
