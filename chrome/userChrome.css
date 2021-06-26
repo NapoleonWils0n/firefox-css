@@ -1,12 +1,15 @@
 /* userChrome.css */
 
-/* hide close, minimize window buttons */
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
 
+/* hide close, minimize window buttons */
 .titlebar-min {display:none!important;}
 .titlebar-max {display:none!important;}
 .titlebar-restore {display:none!important;}
 .titlebar-close {display:none!important;}
+
+/* hide back and forward buttons */
+#back-button, #forward-button {display:none!important;}
 
 /*** Proton Tabs Tweaks ***/
 
