@@ -8,7 +8,8 @@
 }
 
 
-/* youtube */
+/* youtube.com */
+
 @-moz-document domain(youtube.com) {
 /* header */ 
 #masthead, .ytd-app, .ytd-playlist-panel-renderer,
@@ -39,7 +40,9 @@ border: none !important;
 }
 }
 
+
 /* html.duckduckgo.com */
+
 @-moz-document domain(html.duckduckgo.com) {
 body {background:#1c1c1c !important;}
 /* dropdown menu background */
@@ -55,14 +58,14 @@ a.result__snippet {color:#cccccc !important;}
 h1.zci__heading a {color: #eeeeee !important;}
 #zero_click_abstract {color: #cccccc !important;}
 #zero_click_abstract a {color: #cccccc !important;}
-/* a {color: #eeeeee !important;} */
 }
 
+
 /* lite.duckduckgo.com */
+
 @-moz-document domain(lite.duckduckgo.com) {
 body {background:#1c1c1c !important;}
 a {color: #eeeeee !important;}
 span.link-text {color: #cccccc !important;}
 td {color: #cccccc !important;}
 }
-
