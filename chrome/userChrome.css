@@ -8,9 +8,6 @@
 .titlebar-restore {display:none!important;}
 .titlebar-close {display:none!important;}
 
-/* hide back and forward buttons */
-#back-button, #forward-button {display:none !important;}
-
 /*** Proton Tabs Tweaks ***/
 
 /* Adjust tab corner shape, optionally remove space below tabs */
