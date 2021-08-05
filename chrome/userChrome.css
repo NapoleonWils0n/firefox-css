@@ -38,8 +38,8 @@
 #context-savelink, /* save link */
 #context-copyimage-contents, /* copy image */
 #context-take-screenshot, /* take screenshot */
-#context-openlinkintab, /* open link in tab */
-#context-openlink, /* open link in new window */
+/* #context-openlinkintab, open link in tab */
+/* #context-openlink, open link in new window */
 #context-openlinkprivate, /* open link in private window */
 #context-searchselect, /* search for */
 #context-searchselect-private, /* search for private */
