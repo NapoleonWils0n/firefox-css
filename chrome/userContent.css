@@ -17,12 +17,20 @@
 background:#1C1C1C !important;
 }
 /* title */
+#video-title.ytd-rich-grid-media,
+.ytd-guide-entry-renderer,
 h1.title, span#video-title, div#upnext,
 span#title, .ytd-rich-grid-video-renderer,
 a.yt-simple-endpoint,
 #corrected.yt-search-query-correction,
 .original-link.yt-search-query-correction,
 #original.yt-search-query-correction {
+color:#839496 !important;
+}
+
+/* text */
+#content-text.ytd-comment-renderer,
+span.style-scope.yt-formatted-string {
 color:#839496 !important;
 }
 /* player */
