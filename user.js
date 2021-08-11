@@ -2,6 +2,9 @@
 // userchrome.css usercontent.css activate
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
+// disable firefox sync
+user_pref("identity.fxaccounts.enabled", false);
+
 // Fill SVG Color
 user_pref("svg.context-properties.content.enabled", true);
 
