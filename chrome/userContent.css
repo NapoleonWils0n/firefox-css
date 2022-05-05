@@ -1,54 +1,5 @@
 /* userContent.css - change css on domains*/
 
-/* firefox style newtab, blank page and home */
-@-moz-document url(about:blank), url(about:newtab), url(about:home) {  
-    body {
-        background:#1C1C1C !important;
-    }
-}
-
-
-/* youtube.com */
-
-@-moz-document domain(youtube.com) {
-/* header */ 
-#masthead, .ytd-app, .ytd-playlist-panel-renderer,
-.ytd-browse, .ytd-page-manager {
-background:#1C1C1C !important;
-}
-/* title */
-#video-title.ytd-rich-grid-media,
-.ytd-guide-entry-renderer,
-h1.title, span#video-title, div#upnext,
-span#title, .ytd-rich-grid-video-renderer,
-a.yt-simple-endpoint,
-#corrected.yt-search-query-correction,
-.original-link.yt-search-query-correction,
-#original.yt-search-query-correction {
-color:#839496 !important;
-}
-
-/* text */
-#content-text.ytd-comment-renderer,
-span.style-scope.yt-formatted-string {
-color:#839496 !important;
-}
-/* player */
-div#player-container-inner {
-border: solid 1px #121212 !important;
-}
-/* thumbnails */
-a#thumbnail,
-div#container.ytd-playlist-panel-renderer {
-border: solid 1px #121212 !important;
-}
-/* sign in button */
-.ytd-button-renderer {
-border: none !important;
-}
-}
-
-
 /* html.duckduckgo.com */
 
 @-moz-document domain(html.duckduckgo.com) {
