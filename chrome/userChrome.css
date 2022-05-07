@@ -8,10 +8,7 @@
 .titlebar-restore {display:none!important;}
 .titlebar-close {display:none!important;}
 
-/*** Proton Tabs Tweaks ***/
-
 /* Adjust tab corner shape, optionally remove space below tabs */
-
 #tabbrowser-tabs {
     --user-tab-rounding: 6px;
 }
@@ -31,8 +28,10 @@
     }
 }
 
-/* Remove items from Firefox menu */
+/* remove the bookmark star in the url bar */
+#star-button-box {display: none !important}
 
+/* Remove items from Firefox menu */
 #context-sendimage, /* email */
 #context-bookmarklink, /* bookmark link */
 /* #context-savelink, save link */
