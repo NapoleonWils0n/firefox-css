@@ -97,39 +97,39 @@ ul.torrent_list li.torrent div.torrent_name { color: #ddd!important; }
 
 /* torrent inspector */
 div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-info {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-info.png"), -moz-linear-gradient(top, #3A3E47, #BBB)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-info.png")!important, -moz-linear-gradient(top, #3A3E47, #BBB)!important;
   }
 
 div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-info:active, div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-info.selected {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-info.png"), -moz-linear-gradient(top, #3A3E40, white)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-info.png")!important, -moz-linear-gradient(top, #3A3E40, white)!important;
   }
 
 div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-peers {
-  background: url("/usr/share/transmission/web/style/transmission/images/inspector-peers.png"), -moz-linear-gradient(top, #3A3E47, #BBB)!important;
+  background: url("/usr/share/transmission/web/style/transmission/images/inspector-peers.png")!important, -moz-linear-gradient(top, #3A3E47, #BBB)!important;
   background-position: center!important;
   background-repeat: no-repeat!important;
   }
 
 div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-peers:active, div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-peers.selected {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-peers.png"), -moz-linear-gradient(top, #3A3E40, white)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-peers.png")!important, -moz-linear-gradient(top, #3A3E40, white)!important;
   background-position: center!important;
   background-repeat: no-repeat!important;
   }
 
 div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-trackers {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-trackers.png"), -moz-linear-gradient(top, #3A3E47, #BBB)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-trackers.png")!important, -moz-linear-gradient(top, #3A3E47, #BBB)!important;
   }
 
 div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-trackers:active, div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-trackers.selected {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-trackers.png"), -moz-linear-gradient(top, #3A3E40, white)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-trackers.png")!important, -moz-linear-gradient(top, #3A3E40, white)!important;
   }
 
 div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-files {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-files.png"), -moz-linear-gradient(top, #3A3E47, #BBB)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-files.png")!important, -moz-linear-gradient(top, #3A3E47, #BBB)!important;
   }
 
 div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-files:active, div#torrent_inspector #inspector-tabs-wrapper #inspector-tabs > #inspector-tab-files.selected {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-files.png"), -moz-linear-gradient(top, #3A3E47, white)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/inspector-files.png")!important, -moz-linear-gradient(top, #3A3E47, white)!important;
   }
 
 div#torrent_inspector li.inspector_tracker_entry {
@@ -154,40 +154,40 @@ div.torrent_footer {
 div.torrent_footer > div { border: 1px solid #555!important; }
 
 div.torrent_footer #settings_menu {
-    background-image: url("/usr/share/transmission/web/style/transmission/images/settings.png"), -moz-linear-gradient(top, #3A3E47, #bbb)!important;
+    background-image: url("/usr/share/transmission/web/style/transmission/images/settings.png")!important, -moz-linear-gradient(top, #3A3E47, #bbb)!important;
     }
 
 div.torrent_footer #settings_menu:active, div.torrent_footer #settings_menu.selected {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/settings.png"), -moz-linear-gradient(top, #3A3E40, white)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/settings.png")!important, -moz-linear-gradient(top, #3A3E40, white)!important;
   }
 
 div.torrent_footer #prefs-button {
   background-color: #232327!important;
-  background-image: url("/usr/share/transmission/web/style/transmission/images/wrench.png"), -moz-linear-gradient(top, #3A3E47, #bbb)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/wrench.png")!important, -moz-linear-gradient(top, #3A3E47, #bbb)!important;
   }
 
 div.torrent_footer #prefs-button:active, div.torrent_footer #prefs-button.selected {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/wrench.png"), -moz-linear-gradient(top, #3A3E40, white)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/wrench.png")!important, -moz-linear-gradient(top, #3A3E40, white)!important;
   }
 
 div.torrent_footer #turtle-button {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/turtle.png"), -moz-linear-gradient(top, #3A3E47, #BBB)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/turtle.png")!important, -moz-linear-gradient(top, #3A3E47, #BBB)!important;
   }
 
 div.torrent_footer #turtle-button:active, div.torrent_footer #turtle-button.selected {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/turtle.png"), -moz-linear-gradient(top, #3A3E40, white)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/turtle.png")!important, -moz-linear-gradient(top, #3A3E40, white)!important;
   }
 
 div.torrent_footer #turtle-button:active, div.torrent_footer #turtle-button.selected {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/blue-turtle.png"), -moz-linear-gradient(top, #3A3E40, white)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/blue-turtle.png")!important, -moz-linear-gradient(top, #3A3E40, white)!important;
   }
 
 div.torrent_footer #compact-button {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/compact.png"), -moz-linear-gradient(top, #3A3E47, #BBB)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/compact.png")!important, -moz-linear-gradient(top, #3A3E47, #BBB)!important;
   }
 
 div.torrent_footer #compact-button:active, div.torrent_footer #compact-button.selected {
-  background-image: url("/usr/share/transmission/web/style/transmission/images/compact.png"), -moz-linear-gradient(top, #3A3E40, white)!important;
+  background-image: url("/usr/share/transmission/web/style/transmission/images/compact.png")!important, -moz-linear-gradient(top, #3A3E40, white)!important;
   }
 
 /* popup menu */
