@@ -225,3 +225,11 @@ div.dialog_container div.dialog_window a:hover, div.dialog_container div.dialog_
    }
 }
 
+
+/* https://wiki.archlinux.org */
+/* remove mobile theme width */
+
+@-moz-document domain(wiki.archlinux.org) {
+.mw-content-container {max-width: none !important}
+.mw-workspace-container {max-width: none !important}
+}
