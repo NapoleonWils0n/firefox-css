@@ -1,5 +1,12 @@
 /* userContent.css - change css on domains*/
 
+/* youtube.com */
+
+@-moz-document domain(youtube.com) {
+/* hide shorts, trending and banners */
+#content.ytd-rich-section-renderer {display: none !important;}
+}
+
 /* html.duckduckgo.com */
 
 @-moz-document domain(html.duckduckgo.com) {
