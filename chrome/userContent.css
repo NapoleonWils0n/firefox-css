@@ -1,7 +1,7 @@
 /* userContent.css - change css on domains*/
 
 /* background image for newtab, home, blank, privatebrowsing */
-@-moz-document url(about:home), url(about:newtab), url(about:blank), url(about:privatebrowsing) {
+@-moz-document url(about:home), url(about:newtab), url(about:blank) {
 body::before {
     content: "" !important;
     z-index: -1 !important;
