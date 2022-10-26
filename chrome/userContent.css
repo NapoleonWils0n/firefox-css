@@ -12,7 +12,22 @@ body::before {
     background-size: cover !important;
     width: 100vw !important;
     height: 100vh !important;
+    opacity: 0;
+    animation: fadeInAnimation ease-in 0.7s !important;
+    animation-iteration-count: 1 !important;
+    animation-fill-mode: both !important;
+    transition-timing-function: linear;
+    }
 }
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
+    }
 }
 
 /* youtube.com */
