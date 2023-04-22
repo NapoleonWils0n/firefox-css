@@ -8,26 +8,6 @@
 .titlebar-restore {display:none!important;}
 .titlebar-close {display:none!important;}
 
-/* Adjust tab corner shape, optionally remove space below tabs */
-#tabbrowser-tabs {
-    --user-tab-rounding: 6px;
-}
-
-@media (-moz-proton) {
-    .tab-background {
-        border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important;
-        margin-block: 1px 0 !important;
-    }
-    #scrollbutton-up, #scrollbutton-down { /* 6/10/2021 */
-        border-top-width: 1px !important;
-        border-bottom-width: 0 !important;
-    }
-    /* Container color bar visibility */
-    .tabbrowser-tab[usercontextid] > .tab-stack > .tab-background > .tab-context-line {
-        margin: 0px max(calc(var(--user-tab-rounding) - 3px), 0px) !important;
-    }
-}
-
 /* remove the bookmark star in the url bar */
 #star-button-box {display: none !important}
 
