@@ -117,3 +117,6 @@ user_pref("privacy.donottrackheader.enabled", true);
 user_pref("privacy.donottrackheader.value", "1");
 user_pref("privacy.firstparty.isolate", true);
 user_pref("signon.rememberSignons", false);
+// disable firefox vpn ad
+user_pref("browser.vpn_promo.enabled", false);
+
