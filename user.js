@@ -20,7 +20,7 @@ user_pref("browser.safebrowsing.malware.enabled", false);
 // browser search
 user_pref("browser.search.hiddenOneOffs", "Google,Yahoo,Bing,Amazon.com,Twitter");
 // browser search suggest = false
-user_pref("browser.search.suggest.enabled", false);
+user_pref("browser.search.suggest.enabled", true);
 // search bar in toolbar
 user_pref("browser.search.widget.inNavBar", true);
 // browser send pings = false
