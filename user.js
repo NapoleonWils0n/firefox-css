@@ -119,4 +119,5 @@ user_pref("privacy.firstparty.isolate", true);
 user_pref("signon.rememberSignons", false);
 // disable firefox vpn ad
 user_pref("browser.vpn_promo.enabled", false);
-
+// freebsd use sndio audio instead of pulse audio
+user_pref("media.cubeb.backend", "oss");
