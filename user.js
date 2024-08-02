@@ -123,3 +123,5 @@ user_pref("browser.vpn_promo.enabled", false);
 user_pref("browser.urlbar.update2.engineAliasRefresh", true);
 // freebsd use sndio audio instead of pulse audio
 user_pref("media.cubeb.backend", "oss");
+// disable privacy-preserving attribution 
+user_pref("dom.private-attribution.submission.enabled", false);
