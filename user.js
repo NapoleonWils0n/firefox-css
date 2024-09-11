@@ -125,3 +125,6 @@ user_pref("browser.urlbar.update2.engineAliasRefresh", true);
 user_pref("media.cubeb.backend", "oss");
 // disable privacy-preserving attribution 
 user_pref("dom.private-attribution.submission.enabled", false);
+// desktop notifications
+user_pref("alerts.useSystemBackend", true);
+
