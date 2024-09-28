@@ -41,5 +41,6 @@
 #context-paste, /* paste */
 #context-delete, /* delete */
 #context-keywordfield, /* add a keyword for this search */
-#context-selectall /* select all */
+#context-selectall, /* select all */
+#alltabs-button 
 {display: none !important;}
