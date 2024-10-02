@@ -127,11 +127,11 @@ user_pref("media.cubeb.backend", "oss");
 user_pref("dom.private-attribution.submission.enabled", false);
 // desktop notifications
 user_pref("alerts.useSystemBackend", true);
-// sidebar
-user_pref("sidebar.revamp", true);
+// sidebar - off
+user_pref("sidebar.revamp", false);
 // sidebar visibility
 user_pref("sidebar.visibility", "hide-sidebar");
 // sidebar tools
 user_pref("sidebar.main.tools", "history");
-// vertical tabs
-user_pref("sidebar.verticalTabs", true);
+// vertical tabs - off
+user_pref("sidebar.verticalTabs", false);
