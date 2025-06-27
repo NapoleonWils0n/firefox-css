@@ -135,3 +135,5 @@ user_pref("sidebar.visibility", "hide-sidebar");
 user_pref("sidebar.main.tools", "history");
 // vertical tabs - off
 user_pref("sidebar.verticalTabs", false);
+// trim urls
+user_pref("browser.urlbar.trimURLs", false);
