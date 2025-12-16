@@ -137,3 +137,7 @@ user_pref("sidebar.main.tools", "history");
 user_pref("sidebar.verticalTabs", false);
 // trim urls
 user_pref("browser.urlbar.trimURLs", false);
+// Use AI to suggest tabs and a name for tab groups
+user_pref("browser.tabs.groups.smart.userEnabled", false);
+// Enable link previews
+user_pref("browser.ml.linkPreview.enabled", false);
